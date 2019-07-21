@@ -183,7 +183,6 @@ class GetQuote extends React.Component {
     };
 
     onCurrencyChange = e => {
-        debugger;
         if(e && e.target.id){
             this.setState({
                 [e.target.id]:e.target.value
